@@ -11,6 +11,7 @@ The movie data  from the 3 sources was scrubbed to first filter out anything tha
 - Movie Budgets
 - Movie Release Date
 - Movie Running Time
+
 This Data was isolated and cleaned using a regular expressions, lambda funtions and parse funcitons to ensure only reliable and useful data would be kept. (a piece of this scripting is shown below):
 
 ![cleaning](https://user-images.githubusercontent.com/102814578/173982282-efe1a0ed-90c2-4d65-acba-231750d2b1c4.png)
