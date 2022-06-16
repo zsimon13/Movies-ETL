@@ -28,4 +28,4 @@ At this point the DataFrames contained unnecessary columns that wither had missi
 ![ratings_query](https://user-images.githubusercontent.com/102814578/173981670-597c8c86-6c10-4778-aafd-06d9493a569e.png)
 
 ### Resources
-JSON, pandas, numpy, SQLAlchemy, PostgreSQL
+JSON, Pandas, NumPy, SQLAlchemy, PostgreSQL
