@@ -26,5 +26,5 @@ At this point the DataFrames contained unnecessary columns that wither had missi
 ![movies_query](https://user-images.githubusercontent.com/102814578/173981626-b0199405-92a9-46c0-b98f-a33d6d627eef.png)
 ![ratings_query](https://user-images.githubusercontent.com/102814578/173981670-597c8c86-6c10-4778-aafd-06d9493a569e.png)
 
-### Rescources
+### Resources
 JSON, pandas, numpy, SQLAlchemy, PostgreSQL
