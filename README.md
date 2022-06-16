@@ -2,11 +2,11 @@
 
 ## Purpose
 This project focused on Extracting, Transforming and Loading data in order to clean it for later analysis. The data used in this project was for a wide variety of movies that came from movie webistes, wikipedia and information in .csv documents. The data was processed as follows:
-- Kaggle metadata adn MovieLens_ratings.csv were read into Pandas DataFrames
-- Wikipedia JSON was converted to raw data and loaded into a Pandas DataFrame
+- Kaggle metadata and MovieLens_ratings.csv were read into Pandas DataFrames
+- Wikipedia JSON was converted to raw data and then loaded into a Pandas DataFrame
 
 ## Extract, Transform and Load
-The movie data  from the 3 sources was scrubbed to first filter out anything that was not a movie, sucha s TV shows. It was then loaded into a DataFrame where null values were removed. A Regular Expression scriopt was used to remove duplicate movies based on the 'imdb_id' and loaded into another Dataframe. From there a list comprehension script was used to keep only the rows with non null values. The following data was then cleaned for analysis:
+The movie data  from the 3 sources was scrubbed to first filter out anything that was not a movie, such as TV shows. It was then loaded into a DataFrame where null values were removed. A Regular Expression script was used to remove duplicate movies based on the 'imdb_id', and loaded into another Dataframe. From there a list comprehension script was used to keep only the rows with non-null values. The following data was then cleaned for analysis:
 - Amount a movie mad at the Box Office
 - Movie Budgets
 - Movie Release Date
